@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+}
+nav a{
+    padding: 1em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+form{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.multi{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+
+.teste{
+color: rgb(0, 136, 255);
+
+
+}
+.objet{
+    position: relative;
+    left: 200px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+/* .button1{
+background-image: url(france.png);
+background-size: cover;
+height: 50px;
+width: 50px;
+background-color: white;
+border: 0;
+cursor: pointer;
+position: relative;
+left: 200px;
+}
+.button2{
+    background-image: url(royaume-uni.png);
+    background-size: cover;
+height: 50px;
+width: 50px;
+background-color: white;
+border: 0;
+cursor: pointer;
+position: relative;
+left: 200px;
+
+
+}
+.button3{
+    background-image: url(espagne.png);
+    background-size: cover;
+height: 50px;
+width: 50px;
+background-color: white;
+border: 0;
+cursor: pointer;
+position: relative;
+left: 200px;
+
+} */
+.Bouton1{
+    background-image: url(france.png);
+    background-size: cover;
+    background-color: transparent;
+    padding: 5px;
+    border: 0px;
+    height: 50px;
+    cursor: pointer;
+    width: 50px;
+    position: relative;
+left: 200px;
+
+}
+.Bouton3{
+    background-image: url(royaume-uni.png);
+    background-size: cover;
+    background-color: transparent;
+    padding: 5px;
+    border: 0px;
+    height: 50px;
+    cursor: pointer;
+    width: 50px;
+    position: relative;
+left: 200px;
+
+}
+.Bouton2{
+    background-image: url(espagne.png);
+    background-size: cover;
+    background-color: transparent;
+    padding: 5px;
+    border: 0px;
+    height: 50px;
+    cursor: pointer;
+    width: 50px;
+    position: relative;
+left: 200px;
+
+}
+.php{
+height: 200px;
+width: 200px;
+position: relative;
+bottom:  350px;
+}
